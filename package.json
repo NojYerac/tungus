@@ -1,15 +1,19 @@
 {
   "author": "PushOk Software <support@pushok.com>",
   "name": "tungus",
-  "version": "0.0.4",
+  "version": "0.0.4a",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sergeyksv/tungus.git"
+    "url": "git://github.com/nojyerac/tungus.git"
   },
   "contributors": [
     {
       "name": "Sergey Korotkov",
       "email": "sergeyksv@gmail.com"
+    },
+    {
+      "name": "Jon Carey",
+      "email": "noj.yerac@gmail.com"
     }
   ],
   "description": "Mongoose driver for TingoDB embedded database",
@@ -26,17 +30,17 @@
     "node": ">= v0.8.x"
   },
   "dependencies": {
-    "safe": ">=0.0.9",
-    "lodash": "",
-    "mkdirp": "",
-    "mongodb": "",
-    "tingodb": ""
+    "lodash": "~3.9.3",
+    "mkdirp": "~0.5.1",
+    "mongodb": "~2.0.33",
+    "safe": "~0.2.1",
+    "tingodb": "~0.3.4"
   },
   "scripts": {
-		"test":"mocha ./test/*.test.js"
+    "test": "mocha ./test/*.test.js"
   },
   "devDependencies": {
-	  "mongoose": "3.6.11",
-	  "mocha":""
+    "mocha": "~2.2.5",
+    "mongoose": "~4.0.5"
   }
 }

@@ -1,4 +1,5 @@
-global.MONGOOSE_DRIVER_PATH = __dirname + "/../driver";
+//global.MONGOOSE_DRIVER_PATH = __dirname + "/../driver";
+require('tungus');
 process.env.MONGOOSE_TEST_URI = 'tingodb://'+__dirname+"/data";
 global.TUNGUS_DB_OPTIONS =  { nativeObjectID: true, searchInArray: true };
 
