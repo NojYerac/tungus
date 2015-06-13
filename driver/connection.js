@@ -8,6 +8,9 @@ var tingo = require('./tingodb');
 var Db = tingo.Db;
 
 function TingoConnection(base) {
+  this.config = {
+    autoIndex: true
+  };
   this.base = base;
   this.collections = {};
   this.models = {};
