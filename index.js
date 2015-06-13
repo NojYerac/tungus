@@ -1,3 +1,3 @@
 'use strict';
 
-global.MONGOOSE_DRIVER_PATH = __dirname + '/driver';
+global.MONGOOSE_DRIVER_PATH = '../../../tungus/driver';
